@@ -1,0 +1,15 @@
+.PromotionSection .Container{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+
+@media screen and (max-width:992px) {
+    .PromotionSection{
+    height: 100vh;
+    }
+    .PromotionSection .Container{
+
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2,100%);
+    }
+}

@@ -1,0 +1,71 @@
+.Item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F9F9F9;;
+}
+.Item .Images{
+    position: relative;
+}
+
+.Item .Images img{
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+}
+.Item .Images .Icon{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    transform: translateX(-50% );
+    left: 40px;
+    bottom: -3.0816vh;
+  
+    
+}
+.Item .Images .Icon img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border: 5px solid white;
+}
+.Item p{
+    padding:20px;
+    text-align: start;
+}
+.Item .Info{
+    padding: 0 20px;
+}
+.Item .Info p{
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 35px;
+}
+.Item .Info .CountryRating{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+ .CountryRating .Rating{
+    display: flex;
+}
+.Item button{
+    color: white;
+    border: none;
+    width: fit-content;
+    border-radius: 4px;
+background: #DF6951;
+    padding: 14px 30px;
+text-align: center;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 20px;
+margin-bottom: 20px;
+}
+.Item span{
+    display: flex;
+    gap: 10px;
+}

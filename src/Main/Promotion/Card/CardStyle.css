@@ -1,0 +1,50 @@
+.CardDiv{
+    position: relative;
+    width: 100%;
+  
+}
+.CardDiv img{
+    width: 100%;
+    height: 100%;
+}
+.CardDiv .CardText{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+.CardText span{
+    color: #FFEFEC;
+
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.8px;
+text-transform: uppercase;
+}
+.CardText h1{
+    color: #FFF;
+text-align: center;
+font-family: 'Volkhov', serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 71.042px; /* 177.606% */
+}
+.CardText button{
+    border-radius: 4px;
+    padding: 17px 33px;
+    background: none;
+    color: white;
+border: 1px solid #FFF;
+box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+}

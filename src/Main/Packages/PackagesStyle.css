@@ -1,0 +1,12 @@
+.PackagesSection .Container {
+    display: grid;
+    grid-template-columns: repeat(3,28.25768vw);
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 90px;
+}
+@media screen and (max-width:992px) {
+    .PackagesSection .Container {
+       grid-template-columns: 80vw;
+    }
+}

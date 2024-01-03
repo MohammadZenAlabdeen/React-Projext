@@ -1,0 +1,45 @@
+.TrendySection #trendyspan{
+    color: #DF6951;
+
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.TrendySection  #head{
+    margin-bottom: 70px;
+    color: #1E1D4C;
+text-align: center;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+    
+}
+.TrendySection{
+    margin: 100px 0;
+}
+.TrendySection .Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.TrendySection .ItemContainer{
+    display: grid;
+    grid-template-columns: repeat(3,28.5505vw);
+    gap: 30px;
+    justify-content: center;
+    grid-template-rows: 1fr;
+}
+@media screen and (max-width:992px) {
+    .TrendySection .ItemContainer{
+        grid-template-columns: auto;
+        margin-top: 100px;
+    }
+}

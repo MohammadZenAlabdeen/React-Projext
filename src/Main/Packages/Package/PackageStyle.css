@@ -1,0 +1,62 @@
+.Package{
+    border-radius: 4px;
+background: #F5F3F3;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: center;
+gap: 10px;
+}
+.Package p{
+    color: #181E4B;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+max-width:318.503px;
+}
+.Package p span{
+    color: #262626;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+margin-right:40px ;
+}
+.Package .ImgContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.Package .ImgContainer .ImgText {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px 0px 4px 4px;
+background: #DF6951;
+padding: 10px 15px;
+}
+.Package .ImgContainer .ImgText span{
+    color: #F5F3F3;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12.974px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.Package h1{
+    color: #181E4B;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
