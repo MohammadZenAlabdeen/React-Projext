@@ -7,7 +7,7 @@ font-family: 'Poppins', sans-serif;
 
 header{
     position: relative;
-    
+    height: 100vh;
 }
 header .hero{
     z-index: -5;
@@ -66,7 +66,7 @@ nav .Open{
     height: 100vh;
     padding: 25px;
     top: 36px;
-    left: calc(100vw - 220px);
+    left: calc(100vw - 243px);
     display: none;
 
 }

@@ -23,7 +23,7 @@ const PageOne = () => {
   return (
     <>
     <header>
-    <Header image={HeroBg} title={`No matter where you're going to, we’ll take you there`} logo={logoImg} font={`Poppins`} color={`#2F2F2F`} fontSize={`46px`} pages={[{'title':'Home' , 'route':'/'},{'title':'About' , 'route':'/about'},{'title':'Packages' , 'route':'/packages'},{'title':'Services' , 'route':'/#Category'}]} button={'Get in touch'}>
+    <Header image={HeroBg} title={`No matter where you're going to, we’ll take you there`} logo={logoImg} font={`Poppins`} color={`#2F2F2F`} fontSize={`46px`} pages={[{'title':'Home' , 'route':'/'},{'title':'About' , 'route':'/about'},{'title':'Packages' , 'route':'/packages'},{'title':'Services' , 'route':'/home/#Category'}]} button={'Get in touch'}>
 
 </Header>
     </header>

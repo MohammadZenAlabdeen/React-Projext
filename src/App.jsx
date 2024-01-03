@@ -18,10 +18,11 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path='/' element={<PageOne></PageOne>}></Route>
+      <Route path='/' element={<PageOne></PageOne>} ></Route>
+      <Route path='/home' element={<PageOne></PageOne>} ></Route>
       <Route path='/about' element={<PageTwo></PageTwo>}></Route>
       <Route path='/packages' element={<PageThree></PageThree>}></Route>
-      <Route path='/#Category' element={<PageOne></PageOne>}></Route>
+      <Route path='/home#Category' element={<PageOne></PageOne>}></Route>
     </Routes> 
     </>
   )

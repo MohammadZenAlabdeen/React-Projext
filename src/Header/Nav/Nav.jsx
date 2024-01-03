@@ -11,7 +11,7 @@ const nav = ({logo,pages,button}) => {
         <img src={logo}></img>
         <ul>
             {pages.map(element => {
-               return <li><Link to={element.route} smooth>{element.title}</Link></li>
+               return <li><a href={element.route} smooth>{element.title}</a></li>
             })}
         </ul>
         <button className='get'>
@@ -29,7 +29,7 @@ const nav = ({logo,pages,button}) => {
           <div>
           <ul>
             {pages.map(element => {
-               return <li><a href={element.route}>{element.title}</a></li>
+               return <li><a href={element.route} smooth>{element.title}</a></li>
             })}
         </ul>
         <button className='getSide'>

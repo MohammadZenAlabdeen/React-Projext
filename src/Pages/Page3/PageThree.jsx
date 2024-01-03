@@ -94,7 +94,7 @@ const PageThree = () => {
   return (
     <>
     <header>
-    <Header image={HeroBg} title={`Travel With Us`} font={`Yesteryear`} color={`#FFF`} fontSize={`120px`} logo={logoImg} pages={[{'title':'Home' , 'route':'/'},{'title':'About' , 'route':'/about'},{'title':'Packages' , 'route':'/packages'},{'title':'Services' , 'route':'/#Category'}]} button={'Get in touch'}>
+    <Header image={HeroBg} title={`Travel With Us`} font={`Yesteryear`} color={`#FFF`} fontSize={`120px`} logo={logoImg} pages={[{'title':'Home' , 'route':'/'},{'title':'About' , 'route':'/about'},{'title':'Packages' , 'route':'/packages'},{'title':'Services' , 'route':'/home/#Category'}]} button={'Get in touch'}>
 
 </Header>
     </header>
